@@ -1,0 +1,54 @@
+<!DOCTYPE html> 
+<!--This is a webpage made to fulfil assignment for CS102, 
+    The Building Blocks for your Space Base - Functions
+Sanyerlis Camacaro     sancamac@uat.edu-->
+<!-- UAT Space Casino 
+    It is the year 2032 and UAT Space Program had a successful Blast OFF.
+    The UAT astronauts have landed in their campsites in Planet, Mars. After a long day of 
+    exploration and research, the UAT astronauts relax by playing the UAT Space Craps
+    game, where anyone can be a winner as long as you keep trying. 
+-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>UAT Space Program </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+  <h1><img src="UATspaceLogo-1.jpg"></h1> 
+   <h1> 
+       UAT Space Program
+         </h1> 
+                
+ <h2><script>
+    //Testing line
+    document.write("Mission Control");
+
+</script></h2>
+<!--Second Testing line-->
+<h2><p>Are You Ready For Blastoff?</p><br></h2>
+<!--br creates a break in the lines to be represented on the website-->
+<br>
+<h1><p id="countdownTimer">Click to Start Countdown</p>
+    <!--button inserts a clickable button to start blast off-->
+    <button onclick="startCountdown();">Start</button>
+    <button>Stop</button></h1>
+
+   
+      <!--display game name and craps results-->
+      <h3 id="crapsResults">UAT Space Craps Game</h3>
+      <br>
+      <!--display die results-->
+      Die1 is:<div id="die1Res">Needs to be rolled</div><br>
+      Die2 is:<div id="die2Res">Needs to be rolled</div><br>
+      Sum of Die1+Die2 is:<div id="sumRes">Needs to be rolled</div><br>
+      <!--create button to play craps-->
+      <button class="lgButton" onclick="playCraps();">Press To Start Game</button>
+
+<!--linking javascript file-->
+<script src="Building Blocks.js"></script>
+
+</body>
+</html>
